@@ -18,8 +18,8 @@ def clone(dirpath, git_url):
     """Purges dirpath and clones git_url into dirpath
 
     Args:
-        dirpath ([type]): path where git repo is to be cloned
-        git_url ([type]): url of git repo
+        dirpath ([str]): path where git repo is to be cloned
+        git_url ([str]): url of git repo
     """
     purge_folder(dirpath)
     Repo.clone_from(git_url, dirpath, progress=Progress())

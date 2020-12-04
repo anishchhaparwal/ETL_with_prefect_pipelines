@@ -1,0 +1,4 @@
+prefect
+GitPython
+pandas
+pillow
